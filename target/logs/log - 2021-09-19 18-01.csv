@@ -1,0 +1,8 @@
+"data e hora","caso de teste","mensagem"
+"[2021/09/19 18:01:55.135]","Comprar Colar","Iniciou o teste"
+"[2021/09/19 18:01:58.527]","Comprar Colar","Abriu o site"
+"[2021/09/19 18:02:00.069]","Comprar Colar","Clicou na caixa de Pesquisa"
+"[2021/09/19 18:02:02.278]","Comprar Colar","Escreveu Colar de Corda"
+"[2021/09/19 18:02:03.557]","Comprar Colar","Clicou na lupa"
+"[2021/09/19 18:02:05.315]","Comprar Colar","Confirmou o texto da pesquisa de Colar de Corda"
+"[2021/09/19 18:02:05.976]","Comprar Colar","Clicou no item pesquisado"

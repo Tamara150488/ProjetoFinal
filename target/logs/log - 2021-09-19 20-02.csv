@@ -1,0 +1,6 @@
+"data e hora","caso de teste","mensagem"
+"[2021/09/19 20:02:23.089]","Comprar Livro","Iniciou o teste"
+"[2021/09/19 20:02:33.840]","Comprar Livro","Abriu o site"
+"[2021/09/19 20:02:35.391]","Comprar Livro","Clicou na caixa de Pesquisa"
+"[2021/09/19 20:02:36.876]","Comprar Livro","Escreveu O Livro da Matemática"
+"[2021/09/19 20:02:37.925]","Comprar Livro","Clicou na lupa"

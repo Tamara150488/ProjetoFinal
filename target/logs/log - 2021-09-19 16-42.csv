@@ -1,0 +1,8 @@
+"data e hora","caso de teste","mensagem"
+"[2021/09/19 16:42:53.762]","Comprar Caixa Rustica","Iniciou o teste"
+"[2021/09/19 16:42:56.806]","Comprar Caixa Rustica","Abriu o site"
+"[2021/09/19 16:42:59.201]","Comprar Caixa Rustica","Clicou na caixa de Pesquisa"
+"[2021/09/19 16:42:59.720]","Comprar Caixa Rustica","Escreveu Caixa Rustica"
+"[2021/09/19 16:43:01.114]","Comprar Caixa Rustica","Clicou na lupa"
+"[2021/09/19 16:43:03.112]","Comprar Caixa Rustica","Confirmou o texto da pesquisa de Caixa Rustica"
+"[2021/09/19 16:43:04.167]","Comprar Caixa Rustica","Clicou no item pesquisado"
