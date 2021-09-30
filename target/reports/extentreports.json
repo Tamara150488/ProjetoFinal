@@ -1,0 +1,302 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7021605900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "comprarMaterial.iniciar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 355100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.iniciar()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": ": Pesquisar Material e Incluir no Carrinho",
+        "description": "",
+        "id": "comprar-material;:-pesquisar-material-e-incluir-no-carrinho;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1167079300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "comprarMaterial.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 195900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4754244800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "que acesso o site da Kalunga",
+            "match": {
+              "location": "comprarMaterial.queAcessoOSiteDaKalunga()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996431900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pesquiso por \"Caneta hidrográfica 12 cores 15.0112CZF Faber Castell BT 1 UN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Caneta hidrográfica 12 cores 15.0112CZF Faber Castell BT 1 UN",
+                  "offset": 14
+                }
+              ],
+              "location": "comprarMaterial.pesquisoPor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2219675100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clico na Lupa",
+            "match": {
+              "location": "comprarMaterial.clicoNaLupa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2845305900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico no item desejado",
+            "match": {
+              "location": "comprarMaterial.clicoNoItemDesejado()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 368746000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Comprar",
+            "match": {
+              "location": "comprarMaterial.clicoEmComprar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1921085400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "confirmo o nome do produto como \"Caneta hidrográfica 12 cores 15.0112CZF Faber Castell BT 1 UN\" e o preco de \"R$ 11,40\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Caneta hidrográfica 12 cores 15.0112CZF Faber Castell BT 1 UN",
+                  "offset": 33
+                },
+                {
+                  "val": "R$ 11,40",
+                  "offset": 110
+                }
+              ],
+              "location": "comprarMaterial.confirmoONomeDoProdutoComoEOPrecoDe(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3673756100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "comprarMaterial.iniciar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 370400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.iniciar()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": ": Pesquisar Material e Incluir no Carrinho",
+        "description": "",
+        "id": "comprar-material;:-pesquisar-material-e-incluir-no-carrinho;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1164926600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "comprarMaterial.finalizar()"
+            }
+          },
+          {
+            "result": {
+              "duration": 183600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3306558200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "que acesso o site da Kalunga",
+            "match": {
+              "location": "comprarMaterial.queAcessoOSiteDaKalunga()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 922634400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Pesquiso por \"Estojo escolar plástico branco Waleu PT 1 UN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Estojo escolar plástico branco Waleu PT 1 UN",
+                  "offset": 14
+                }
+              ],
+              "location": "comprarMaterial.pesquisoPor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2156927600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clico na Lupa",
+            "match": {
+              "location": "comprarMaterial.clicoNaLupa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600610500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clico no item desejado",
+            "match": {
+              "location": "comprarMaterial.clicoNoItemDesejado()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281104000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico em Comprar",
+            "match": {
+              "location": "comprarMaterial.clicoEmComprar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3402303400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "confirmo o nome do produto como \"Estojo escolar plástico branco Waleu PT 1 UN\" e o preco de \"R$ 6,80\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Estojo escolar plástico branco Waleu PT 1 UN",
+                  "offset": 33
+                },
+                {
+                  "val": "R$ 6,80",
+                  "offset": 93
+                }
+              ],
+              "location": "comprarMaterial.confirmoONomeDoProdutoComoEOPrecoDe(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Comprar Material",
+    "description": "",
+    "id": "comprar-material",
+    "keyword": "Feature",
+    "uri": "comprarMaterial.feature"
+  }
+]
